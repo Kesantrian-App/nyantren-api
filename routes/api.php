@@ -23,5 +23,14 @@ Route::post('login', $url. '\UserController@login')->name('login');
 
 Route::group(['middleware' => 'auth:api'], function(){
     Route::get('user/detail', 'App\Http\Controllers\UserController@details');
+    //PINJAM ALAT ELEKTRONIK
+    Route::get('showpinjamlaptop', 'App\Http\Controllers\BorrowController@index');
+    Route::post('pinjamlaptop', 'App\Http\Controllers\BorrowController@create');
+    Route::get('showpinjamhp', 'App\Http\Controllers\BorrowPhoneController@index');
+    Route::post('pinjamhp', 'App\Http\Controllers\BorrowPhoneController@create');
+    //SETORHAFALAN
+        // Route::get('showsetoran', 'App\Http\Controllers\BorrowController@index');
+        // Route::post('setorhafalan', 'App\Http\Controllers\BorrowController@create');
+    //LOGOUT
     Route::post('logout', 'App\Http\Controllers\UserController@logout');
 });
