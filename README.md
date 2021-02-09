@@ -27,7 +27,8 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="hhttps://cdn.discordapp.com/attachments/804257650535432245/806046919917961217/Nyantren_-_Logo.svg" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://cdn.discordapp.com/attachments/804257650535432245/806046919917961217/Nyantren_-_Logo.svg" width="400"></a></p>
+
 
 ## ABOUT NYANTREN
 
